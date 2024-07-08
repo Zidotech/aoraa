@@ -40,8 +40,7 @@ const RootLayout = () => {
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="(auth)" options={{ headerShown: false }} />
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        {/* Uncomment the following line if you have the search/[query] screen */}
-        {/* <Stack.Screen name="search/[query]" options={{ headerShown: false }} /> */}
+        <Stack.Screen name="search/[query]" options={{ headerShown: false }} />
       </Stack>
     </GlobalProvider>
   );
