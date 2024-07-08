@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { StyleSheet, Text, View } from "react-native";
 import { SplashScreen, Stack } from "expo-router";
 import { useFonts } from "expo-font";
 import GlobalProvider from "../context/GlobalProvider";
